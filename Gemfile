@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 
-ruby '2.2.1'
-gem 'rails', '4.2.1'
+#ruby '2.1.4'
+gem 'rails', '4.1.6'
 gem 'sqlite3'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sass-rails', '>= 3.2'
@@ -16,7 +16,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'pry'
 end
 
 group :production do
